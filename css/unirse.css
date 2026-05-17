@@ -1,0 +1,60 @@
+
+form{
+    width: 70%;
+    margin: 20px auto;
+}
+fieldset{
+    background-color: rgb(128, 0, 32);
+    border: 4px double rgb(212, 175, 55) ;
+    margin: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+}
+legend{
+    text-align: start;
+    font-size: clamp(.75em, 4vw,2em);
+    text-decoration: underline;
+    border: 4px double rgb(112, 175, 55);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+    background-color: rgb(128, 0, 32);
+
+}
+label{
+    display: block;
+    text-decoration: underline;
+    margin-top: 15px;;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto 10px auto;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(25, 25, 112);
+    border:1px solid ivory;
+    border-radius: 15px;
+    color:rgb(255, 255, 240); ;
+}
+input:hover,select:hover,textarea:hover{
+    background-color: rgb(46, 46, 107);
+}
+
+.estrofa{
+    resize: vertical;
+    padding: 20px;
+}
+button{
+    width: 70vw;
+    height: 8vw;
+    border: 4px double rgb(112, 175, 55);
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+    background-color: rgb(128, 0, 32);
+    color:rgb(255, 255, 240);
+    border-radius: 15px;
+    font-size: clamp(1em,4vw,2em);
+}
+button:hover{
+    background-color: rgb(126, 50, 69);
+}

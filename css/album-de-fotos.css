@@ -1,0 +1,15 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+main{
+    margin:5%
+}

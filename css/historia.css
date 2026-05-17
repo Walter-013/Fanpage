@@ -1,0 +1,15 @@
+.firma{
+    background-color: white;
+}
+main{
+    max-width: 1000px ;
+    margin: auto;
+
+}
+img{
+    border-radius: 15px;
+}
+img:hover{
+    box-shadow: 0 0 12px rgba(212, 175, 55);
+    cursor: initial;
+}
